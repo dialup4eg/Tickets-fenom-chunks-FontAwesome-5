@@ -2,10 +2,10 @@
 
 ## TicketMeta
 `
-{$_modx->runSnippet('!TicketMeta',[\
-    'tplFile' => '@FILE chunks/chunk.ticket_meta_file.tpl',\
-    'tpl' =>'@FILE chunks/chunk.ticket_meta.tpl'\
-])}\
+{$_modx->runSnippet('!TicketMeta',[<br />
+    'tplFile' => '@FILE chunks/chunk.ticket_meta_file.tpl',<br />
+    'tpl' =>'@FILE chunks/chunk.ticket_meta.tpl'<br />
+])}
 `
 ## TicketComments
 `
