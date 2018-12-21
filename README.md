@@ -8,7 +8,7 @@
 ])}
 ```
 ## TicketComments
-`
+```
 {$_modx->runSnippet('!TicketComments',[
     'tplCommentForm' => '@FILE chunks/chunk.comment_form.tpl',
     'tplCommentFormGuest' => '@FILE chunks/chunk.comment_form_guest.tpl',
@@ -23,29 +23,29 @@
     'tplCommentEmailBcc' => '@FILE chunks/chunk.comment_email_bcc.tpl',
     'tplCommentEmailUnpublished' => '@FILE chunks/chunk.comment_email_unpublished.tpl',
 ])}
-`
+```
 ## getComments
-`
+```
 {$_modx->runSnippet('!getComments',[
     'tpl' => '@FILE chunks/chunk.comment_latest.tpl',
     'tplCommentDeleted' => '@FILE chunks/chunk.comment_one_deleted.tpl'
 ])}
-`
+```
 ## TicketLatest
-`
+```
 {$_modx->runSnippet('!TicketLatest',[
   'tpl' => '@FILE chunks/chunk.ticket_latest.tpl',
   'parents' => $_pls['section.id']
 ])}
-`
+```
 ## getTicketsSections
-`
+```
 {$_modx->runSnippet('!getTicketsSections',[
   'tpl' => '@FILE chunks/chunk.ticket_sections_row.tpl',
 ])}
-`
+```
 ## TicketForm
-`
+```
 {$_modx->runSnippet('!TicketForm',[
 	'tplFormCreate' => '@FILE chunks/chunk.form_create.tpl',
 	'tplFormUpdate' => '@FILE chunks/chunk.form_update.tpl',
@@ -56,4 +56,4 @@
 	'tplFile' => '@FILE chunks/chunk.form_file.tpl',
 	'tplImage' => '@FILE chunks/chunk.form_image.tpl'
 ])}
-`
+```
